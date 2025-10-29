@@ -11,7 +11,7 @@ step-06:Move to the next element and repeat steps 2–5 until all elements are p
 insertionsort(A,n){
     where A = input array, n = length of input array, key = tempoaray vairble
 
-    for i = 0 to n{
+    for i = 1 to n{
         key = A[i]
         j = i-1
         while j >= 0 && A[j] > key{
